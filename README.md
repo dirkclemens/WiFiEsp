@@ -38,6 +38,7 @@ Most of the standard Arduino WiFi library methods are available. Refer to the [W
 ### WiFiEsp class
 
 - begin() - Not all authentication types
+- beginEx() and wifiConnectEx(). NEW
 - disconnect() - YES
 - config()
 - setDNS() - NO (no AT command available)
