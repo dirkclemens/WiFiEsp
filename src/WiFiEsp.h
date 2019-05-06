@@ -73,6 +73,7 @@ public:
 	*		  must be between ASCII 32-126 (decimal).
 	*/
 	int begin(const char* ssid, const char* passphrase);
+	int beginEx(const char* ssid, const char* passphrase, const char* mac);
 
 
 	/**
